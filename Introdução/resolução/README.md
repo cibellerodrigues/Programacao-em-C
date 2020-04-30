@@ -37,7 +37,7 @@ Se observar a sequência com cuidado é possível ver que um número é a soma d
 
 
 Assim, é possível calcular o valor relacionado a qualquer posição. Exemplo, o valor da posição 5 é calculado da forma seguinte:
-1. $$F(1) = 0, F(2) = 1$$
-2. $$F(3) = F(2) + F(1) = 1 + 0 = 1$$
-3. $$F(4) = F(3) + F(2) = 1 + 1 = 2$$
-4. $$F(5) = F(4) + F(3) = 2 + 1 = 3$$
+1. ![F(1) = 0, F(2) = 1](https://render.githubusercontent.com/render/math?math=F(1)%20%3D%200%2C%20F(2)%20%3D%201)
+2. ![F(3) = F(2) + F(1) = 1 + 0 = 1](https://render.githubusercontent.com/render/math?math=F(3)%20%3D%20F(2)%20%2B%20F(1)%20%3D%201%20%2B%200%20%3D%201)
+3. ![F(4) = F(3) + F(2) = 1 + 1 = 2](https://render.githubusercontent.com/render/math?math=F(4)%20%3D%20F(3)%20%2B%20F(2)%20%3D%201%20%2B%201%20%3D%202)
+4. ![F(5) = F(4) + F(3) = 2 + 1 = 3](https://render.githubusercontent.com/render/math?math=F(5)%20%3D%20F(4)%20%2B%20F(3)%20%3D%202%20%2B%201%20%3D%203)

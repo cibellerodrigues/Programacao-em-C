@@ -41,3 +41,43 @@ Assim, é possível calcular o valor relacionado a qualquer posição. Exemplo, 
 2. ![F(3) = F(2) + F(1) = 1 + 0 = 1](https://render.githubusercontent.com/render/math?math=F(3)%20%3D%20F(2)%20%2B%20F(1)%20%3D%201%20%2B%200%20%3D%201)
 3. ![F(4) = F(3) + F(2) = 1 + 1 = 2](https://render.githubusercontent.com/render/math?math=F(4)%20%3D%20F(3)%20%2B%20F(2)%20%3D%201%20%2B%201%20%3D%202)
 4. ![F(5) = F(4) + F(3) = 2 + 1 = 3](https://render.githubusercontent.com/render/math?math=F(5)%20%3D%20F(4)%20%2B%20F(3)%20%3D%202%20%2B%201%20%3D%203)
+
+## Desenvolver um algoritmo
+
+Agora que entendemos o problema e formulamos um modelo é hora de desenvolver um algoritmo. Um algoritmo é uma sequência precisa de instruções para resolver um problema.
+
+Já que sabemos o que é um algoritmo, como podemos representá-los?
+
+Há duas representações comumente usadas para um algoritmo, que são:
+
+- Pseudo-código: É uma sequência simples e concisa de instruções em Português. Se assemelha com uma receita. Ao aprender a programar, é importante escrever pseudo-códigos pois ajuda a entender claramente o problema que você está tentando solucionar.
+
+- Fluxograma: É uma forma gráfica de representar instruções.
+
+Para exemplificar o uso dessas formas de representação de um algoritmo, seguem abaixo os exemplos para um algoritmo que soluciona o problema de preparação de bifes à milanesa.
+
+### Pseudocódigo
+```
+1. Limpar a peça de carne
+2. Fatiar a carne em bifes
+3. Colocar farinha de rosca em um prato
+4. Juntar 2 ovos e mexer
+5. Repetir, para cada bife
+    5.1 passar o bife na mistura de farinha, nos 2 lados
+    5.2 levar bife à frigideira até dourar
+    5.3 aguardar dourar, virando ambas as faces
+    5.4 retirar o bife colocando em papel toalha para secar
+    5.5 retirar do papel toalha e juntar numa travessa
+6. Se tiver molho, coloque para acompanhamento
+7. Senão, jogue queijo por cima
+8. Servir 
+```
+### Fluxograma
+[![](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggVERcblx0QVtMaW1wYXIgY2FybmVdIC0tPiBCW0ZhdGlhciBjYXJuZV1cbiAgICBCIC0tPiBDW0NvbG9jYXIgZmFyaW5oYV1cbiAgICBDIC0tPiBEW0JhbmhhciBub3Mgb3Zvc11cbiAgICBEIC0tPiBFe0jDoSBiaWZlc31cbiAgICBFIC0tPiB8U2ltfCBGW1Bhc3NhciBiaWZlIG5hIG1pc3R1cmFdXG4gICAgRiAtLT4gR1tGcml0YXIgYmlmZV1cbiAgICBHIC0tPiBIW0RvdXJhcl1cbiAgICBIIC0tPiBJW1NlY2FyXVxuICAgIEkgLS0-IEpbQ29sb2NhciBuYSB0cmF2ZXNzYV1cbiAgICBKIC0tPiBFXG5cdEUgLS0-IHxOw6NvfCBMe1RlbSBtb2xob31cbiAgICBMIC0tPiB8U2ltfCBNW0NvbG9jYSBtb2xobyBzb2JyZSBvcyBiaWZmZXNdXG4gICAgTCAtLT4gfE7Do298IE9bQ29sb2NhIHF1ZWlqb11cbiAgICBNIC0tPiBOW1NpcnZhXVxuICAgIE8gLS0-IE4iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggVERcblx0QVtMaW1wYXIgY2FybmVdIC0tPiBCW0ZhdGlhciBjYXJuZV1cbiAgICBCIC0tPiBDW0NvbG9jYXIgZmFyaW5oYV1cbiAgICBDIC0tPiBEW0JhbmhhciBub3Mgb3Zvc11cbiAgICBEIC0tPiBFe0jDoSBiaWZlc31cbiAgICBFIC0tPiB8U2ltfCBGW1Bhc3NhciBiaWZlIG5hIG1pc3R1cmFdXG4gICAgRiAtLT4gR1tGcml0YXIgYmlmZV1cbiAgICBHIC0tPiBIW0RvdXJhcl1cbiAgICBIIC0tPiBJW1NlY2FyXVxuICAgIEkgLS0-IEpbQ29sb2NhciBuYSB0cmF2ZXNzYV1cbiAgICBKIC0tPiBFXG5cdEUgLS0-IHxOw6NvfCBMe1RlbSBtb2xob31cbiAgICBMIC0tPiB8U2ltfCBNW0NvbG9jYSBtb2xobyBzb2JyZSBvcyBiaWZmZXNdXG4gICAgTCAtLT4gfE7Do298IE9bQ29sb2NhIHF1ZWlqb11cbiAgICBNIC0tPiBOW1NpcnZhXVxuICAgIE8gLS0-IE4iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)
+
+### Variáveis
+### Condicionais
+### Laços
+### O algoritmo de Fibonacci
+
+## Revisar e testar a solução

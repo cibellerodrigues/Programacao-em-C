@@ -3,4 +3,5 @@ Este tutorial, desenvolvido pela comunidade da UFC-Campus Russas, tem como o obj
 
 # Contribuintes
 Cibelle Rodrigues
+
 Filipe Maciel

@@ -33,17 +33,8 @@ Sabendo o que é o problema, você precisa modelar a solução. Ou seja, como ir
 
 Se observar a sequência com cuidado é possível ver que um número é a soma dos dois antecessores. Matemáticamente podemos definir como:
 
-$$
-\left\{
-\begin{matrix}
-F_1=&0
-\\
-F_2=&1
-\\ 
-F_n=&F_{n-1}&+&F_{n-2}
-\end{matrix}
-\right.
-$$
+![\left\{ \begin{matrix} F_1=&0 \\ F_2=&1 \\  F_n=&F_{n-1}&+&F_{n-2} \end{matrix} \right.](https://render.githubusercontent.com/render/math?math=%5Cleft%5C%7B%20%5Cbegin%7Bmatrix%7D%20F_1%3D%260%20%5C%5C%20F_2%3D%261%20%5C%5C%20%20F_n%3D%26F_%7Bn-1%7D%26%2B%26F_%7Bn-2%7D%20%5Cend%7Bmatrix%7D%20%5Cright.)
+
 
 Assim, é possível calcular o valor relacionado a qualquer posição. Exemplo, o valor da posição 5 é calculado da forma seguinte:
 1. $$F(1) = 0, F(2) = 1$$

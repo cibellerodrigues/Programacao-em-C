@@ -59,33 +59,33 @@ Para montar o ambiente corretamente você tem que seguir os passos a seguir:
 
 3. Instalação mingw-w64.
 
-a. Realize o download do mingw-w64 via site do sourceforge: [link](http://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe/download)
+	a. Realize o download do mingw-w64 via site do sourceforge: [link](http://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe/download)
 
-b. Abra o instalador e inicie a instalação.
+	b. Abra o instalador e inicie a instalação.
 
-![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/12.png)
+	![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/12.png)
 
-c. Configure de acordo com os parâmetros abaixo.
+	c. Configure de acordo com os parâmetros abaixo.
 
-![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/13.png)
+	![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/13.png)
 
-d. Não instale em um caminho no sistema de arquivos que tenha espaço, por
+	d. Não instale em um caminho no sistema de arquivos que tenha espaço, por
 exemplo “C:\Program Files”. Assumo que você instalará em C:. Veja como
 ficou a minha configuração.
 
-![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/14.png)
+	![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/14.png)
 
-e. A instalação começa.
+	e. A instalação começa.
 
-![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/15.png)
+	![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/15.png)
 
-f. Finalização da instalação.
+	f. Finalização da instalação.
 
-![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/16.png)
+	![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/16.png)
 
-g. Caso dê o erro a seguir, a instalação será manual.
+	g. Caso dê o erro a seguir, a instalação será manual.
 
-![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/17.png)
+	![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/17.png)
 
 	>1. Acesse este [link](https://sourceforge.net/projects/mingw-w64/files/mingw-w64/) para obter o arquivo comprimido.
 	
@@ -103,36 +103,36 @@ g. Caso dê o erro a seguir, a instalação será manual.
 
 4. Configuração do Mingw na variável de ambiente do Windows.
 
-a. Na barra de busca do Windows digite configurações. Abrirá as configurações
+	a. Na barra de busca do Windows digite configurações. Abrirá as configurações
 do Windows.
 
-![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/19.png)
+	![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/19.png)
 
-b. Busque por “Editar as variáveis de ambiente do sistema”. Ao clicar no
+	b. Busque por “Editar as variáveis de ambiente do sistema”. Ao clicar no
 resultado da busca, abrirá a janela abaixo.
 
-![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/20.png)
+	![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/20.png)
 
-c. Clique em variáveis do ambiente. Abrirá a tela a seguir.
+	c. Clique em variáveis do ambiente. Abrirá a tela a seguir.
 
-![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/21.png)
+	![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/21.png)
 
-d. Selecione a variável “Path” e clique em “editar”. Abrirá a tela a seguir.
+	d. Selecione a variável “Path” e clique em “editar”. Abrirá a tela a seguir.
 
-![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/22.png)
+	![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/22.png)
 
-e. Selecione “Novo” para adicionar o caminho até a pasta “bin” do mingw que
+	e. Selecione “Novo” para adicionar o caminho até a pasta “bin” do mingw que
 instalou. Se seguiu a minha configuração, o caminho será “C:\mingw-
 w64\mingw64\bin”. Clique em OK de todas as telas até sair da configuração.
 
-![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/23.png)
+	![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/23.png)
 
-f. Para verificar se a configuração foi realizada com sucesso abra um prompt de
+	f. Para verificar se a configuração foi realizada com sucesso abra um prompt de
 comando e digite “gcc --version”.
 
-![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/24.png)
+	![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/24.png)
 
-g. Se a saída foi igual a figura anterior está tudo ok. Senão verifique os seus
+	g. Se a saída foi igual a figura anterior está tudo ok. Senão verifique os seus
 passos de instalação e tente descobrir onde errou.
 
 ## Criando o primeiro programa no ambiente

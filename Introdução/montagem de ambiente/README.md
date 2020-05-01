@@ -88,15 +88,15 @@ ficou a minha configuração.
 	![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/17.png)
 
 	>1. Acesse este [link](https://sourceforge.net/projects/mingw-w64/files/mingw-w64/) para obter o arquivo comprimido.
-	
+	>
 	>2. Selecione o arquivo com a configuração anteriormente feita.
-	
+	>
 	> **MinGW-W64 GCC-8.1.0**
-	
+	>
 	> x86_64-posix-sjlj
-	
+	>
 	>3. Após o download do arquivo extraia seu conteúdo para a pasta C:\mingw-w64.
-	
+	>
 	>4. Tanto a instalação pelo instalador, quanto a manual, o caminho do programa no sistema de arquivos do seu computador fica igual abaixo (C:\mingw-w64\mingw64).
 	
 	![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/18.png)

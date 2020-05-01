@@ -6,11 +6,11 @@ Para montar o ambiente corretamente você tem que seguir os passos a seguir:
 
 1. Instalar o Visual Studio Code;
 
-a. Download do instalador para Windows: [link](https://go.microsoft.com/fwlink/LinkID=534107)
+	a. Download do instalador para Windows: [link](https://go.microsoft.com/fwlink/LinkID=534107)
 
-b. Finalizando o download, execute o instalador(VSCodeUserSetup-{versão}.exe).
-	>1. Escolha a língua que será usada no instalador.
-	![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/1.png)
+	b. Finalizando o download, execute o instalador(VSCodeUserSetup-{versão}.exe).
+		>1. Escolha a língua que será usada no instalador.
+		![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/1.png)
 
 	>2. Aceite a licença.
 	![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/2.png)

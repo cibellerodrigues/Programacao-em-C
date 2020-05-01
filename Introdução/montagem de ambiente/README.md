@@ -12,36 +12,36 @@ Para montar o ambiente corretamente você tem que seguir os passos a seguir:
 
 	>1. Escolha a língua que será usada no instalador.
 
-	![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/1.png)
+		![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/1.png)
 
 	>2. Aceite a licença.
 	
-	![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/2.png)
+		![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/2.png)
 	
 	>3. Por padrão, o vs code é instalado na pasta
 	C:\users\{username}\AppData\Local\Programs\Microsoft VS Code.
 	
-	![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/3.png)
+		![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/3.png)
 	
 	>4. Defina um nome para pasta no menu.
 	
-	![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/4.png)
+		![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/4.png)
 	
 	>5. Configurações adicionais (ícone e editor padrão).
 	
-	![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/5.png)
+		![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/5.png)
 	
 	>6. Só terminar a instalação clicando em install.
 	
-	![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/6.png)
+		![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/6.png)
 	
 	>7. Instalação.
 	
-	![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/7.png)
+		![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/7.png)
 	
 	>8. Completar iniciando o vscode.
 	
-	![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/8.png)
+		![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/ambiente/8.png)
 	
 	c. Agora você deveria ter o VS code executando.
 	

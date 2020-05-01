@@ -91,9 +91,9 @@ ficou a minha configuração.
 	
 	>2. Selecione o arquivo com a configuração anteriormente feita.
 	
-		**MinGW-W64 GCC-8.1.0**
+	> **MinGW-W64 GCC-8.1.0**
 	
-		x86_64-posix-sjlj
+	> x86_64-posix-sjlj
 	
 	>3. Após o download do arquivo extraia seu conteúdo para a pasta C:\mingw-w64.
 	

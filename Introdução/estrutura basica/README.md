@@ -1,4 +1,4 @@
-#A maneira que C trabalha
+# A maneira que C trabalha
 
 C é uma linguagem para criar programas rápidos. É com ela que todos sistemas básicos são construı́dos. Abaixo estão listados os passos básicos para a construção de um programa.
 

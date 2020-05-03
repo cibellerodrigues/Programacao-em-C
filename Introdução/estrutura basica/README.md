@@ -17,9 +17,9 @@ C é uma linguagem para criar programas rápidos. É com ela que todos sistemas 
 
 3. Executar
 
-	** $ ./nome_do_executavel**
+	**$ ./nome_do_executavel**
 
-##Estrutura de um programa em C
+## Estrutura de um programa em C
 
 1. Comentário serve para descrever o propósito do código.
 ```c
@@ -27,6 +27,8 @@ C é uma linguagem para criar programas rápidos. É com ela que todos sistemas 
 	diversas
 	linhas
 */
+
+// Para comentar uma única linha
 ```
 
 2.  Inclusão de bibliotecas para reutilizar código.

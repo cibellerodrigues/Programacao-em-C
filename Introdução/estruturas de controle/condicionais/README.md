@@ -40,7 +40,7 @@ Passo a passo de execução de um condicional em C:
 
 * senão, executa apenas o *comando2*.
 
-###Operador condicional
+### Operador condicional
 
 C oferece também um operador que proporciona uma forma mais compacta de se representar uma decisão simples. O operador condicional, cuja sintaxe é
 

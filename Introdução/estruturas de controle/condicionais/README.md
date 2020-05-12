@@ -133,4 +133,6 @@ Para demonstrar o uso da estrutura de decisão múltipla, criaremos um script qu
 				case '/' : printf("\n valor = %.2f", x/y); break;
 				default  : break;
 			}
+			
+			return 0;
 		}

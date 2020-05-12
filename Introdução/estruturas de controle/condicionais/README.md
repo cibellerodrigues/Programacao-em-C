@@ -1,8 +1,8 @@
-#Comandos de Decisão
+# Comandos de Decisão
 
 Todos os programas apresentados até agora possuem estrutura sequencial: as instruções são executadas uma após a outra na ordem dada. Porém, a maioria dos programas possui uma estrutura mais complicada, na qual instruções podem ou não serem executadas dependendo de certas condições. 
 
-##Expressões lógicas
+## Expressões lógicas
 
 Para gerar um valor lógico em C, utilizamos operadores relacionais. O resultado da avaliação de um operador relacional é 0 se a comparação é falsa e 1 se é verdadeira.
 
@@ -12,7 +12,7 @@ Além dos operadores relacionais, C também oferece operadores lógicos.
 
 ![](https://raw.githubusercontent.com/cibellerodrigues/Programacao-em-C/master/Introdu%C3%A7%C3%A3o/images/condicionais/2.png)
 
-##Decisão simples
+## Decisão simples
 
 Em C, a estrutura condicional é codificada da seguinte forma: 
 
@@ -40,7 +40,7 @@ Passo a passo de execução de um condicional em C:
 
 * senão, executa apenas o *comando2*.
 
-###Operador condicional
+### Operador condicional
 
 C oferece também um operador que proporciona uma forma mais compacta de se representar uma decisão simples. O operador condicional, cuja sintaxe é
 
@@ -64,7 +64,7 @@ Passo a passo de execução de um operador condicional em C:
 
 * senão, o resultado final é o valor da *expressão2*.
 
-###Condicionais Aninhados e Encadeados
+### Condicionais Aninhados e Encadeados
 
 Como vimos, a estrutura condicional serve para selecionar e executar um entre dois comandos alternativos. É possível que, algumas vezes, um destes comandos alternativos (ou ambos) sejam também condicionais. 
 
@@ -72,6 +72,7 @@ Como vimos, a estrutura condicional serve para selecionar e executar um entre do
 			if ... /* aninhado */
 		else
 			if ... /*encadeado */
+<<<<<<< HEAD
 
 Para compreendermos essa estrutura, observe abaixo o script para classificação de um triângulo de acordo com suas medidas. 
 
@@ -134,3 +135,5 @@ Para demonstrar o uso da estrutura de decisão múltipla, criaremos um script pa
 				default  : break;
 			}
 		}
+=======
+>>>>>>> 5e2514d97e1d4553e691d1350caa9c46b852ee87

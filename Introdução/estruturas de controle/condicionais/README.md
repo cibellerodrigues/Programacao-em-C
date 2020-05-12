@@ -72,3 +72,65 @@ Como vimos, a estrutura condicional serve para selecionar e executar um entre do
 			if ... /* aninhado */
 		else
 			if ... /*encadeado */
+
+Para compreendermos essa estrutura, observe abaixo o script para classificação de um triângulo de acordo com suas medidas. 
+
+		int main(int argc, char const *argv[ ]){
+			float a, b, c;
+			printf("Informe três valores:\n ");
+			scanf("%f %f %f", &a, &b, &c);
+			
+			if(a < b + c && b < a + c &&  c < a + b){
+				printf("É um triângulo ");
+				if(a==b && b==c) printf("equilatero\n");
+				else if(a == b || a==c || b==c) printf("isosceles\n");
+				else printf("escaleno\n");
+			}
+			
+			return 0;
+		}
+
+Vale relembrar as seguintes informações: 
+
+* Para que três números representem os lados de um triângulo é necessário que cada um deles seja menor que a soma dos outros dois.
+
+* Um triângulo é equilátero se tem os três lados iguais, isóceles se tem apenas dois lados iguais e escaleno se tem todos os lados distintos. 
+
+##Decisão Múltipla
+
+A estrutura de decisão múltipla é bastante adequada quando precisamos escolher uma entre várias alternativas previamente definidas. A decisão múltipla tem a seguinte sintaxe: 
+
+		switch( expressão ){
+			case constante1 : comando1; break;
+			case constante2 : comando2; break;
+			...
+			case constanten : comandon; break
+			default : comando;
+		}
+
+Funciona da seguinte maneira: 
+
+* Avalia a expressão, que deve ser do tipo char ou int;
+
+* Encontra o case cuja constante é igual ao valor da expressão e executa todos os comandos seguintes até encontrar um comando break;
+
+* Se não existe tal caso, executa todas as instruções associadas ao caso default. 
+
+Se dois casos não são separados por um comando break, dizemos que o controle "vaza" de um caso para o outro, ou seja, quando o primeiro caso é selecionado para execução, não apenas o comando associado a ele é executado, mas também o comando associado ao segundo. 
+
+Para demonstrar o uso da estrutura de decisão múltipla, criaremos um script para uma calculadora simples. Veja abaixo.
+
+		int main(int argc, char const *argv[ ]){
+			float x, y;
+			char op;
+			printf("\n Expressão? ");
+			scanf("%f %c %f", &x, &op, &y);
+			
+			switch(op){
+				case '+' : printf("\n valor = %.2f", x+y); break;
+				case '-' : printf("\n valor = %.2f", x-y); break;
+				case '*' : printf("\n valor = %.2f", x*y); break;
+				case '/' : printf("\n valor = %.2f", x/y); break;
+				default  : break;
+			}
+		}

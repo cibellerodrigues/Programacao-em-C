@@ -72,7 +72,6 @@ Como vimos, a estrutura condicional serve para selecionar e executar um entre do
 			if ... /* aninhado */
 		else
 			if ... /*encadeado */
-<<<<<<< HEAD
 
 Para compreendermos essa estrutura, observe abaixo o script para classificação de um triângulo de acordo com suas medidas. 
 
@@ -97,7 +96,7 @@ Vale relembrar as seguintes informações:
 
 * Um triângulo é equilátero se tem os três lados iguais, isóceles se tem apenas dois lados iguais e escaleno se tem todos os lados distintos. 
 
-##Decisão Múltipla
+## Decisão Múltipla
 
 A estrutura de decisão múltipla é bastante adequada quando precisamos escolher uma entre várias alternativas previamente definidas. A decisão múltipla tem a seguinte sintaxe: 
 
@@ -119,7 +118,7 @@ Funciona da seguinte maneira:
 
 Se dois casos não são separados por um comando break, dizemos que o controle "vaza" de um caso para o outro, ou seja, quando o primeiro caso é selecionado para execução, não apenas o comando associado a ele é executado, mas também o comando associado ao segundo. 
 
-Para demonstrar o uso da estrutura de decisão múltipla, criaremos um script para uma calculadora simples. Veja abaixo.
+Para demonstrar o uso da estrutura de decisão múltipla, criaremos um script que simula uma calculadora simples. Veja abaixo.
 
 		int main(int argc, char const *argv[ ]){
 			float x, y;
@@ -135,5 +134,3 @@ Para demonstrar o uso da estrutura de decisão múltipla, criaremos um script pa
 				default  : break;
 			}
 		}
-=======
->>>>>>> 5e2514d97e1d4553e691d1350caa9c46b852ee87

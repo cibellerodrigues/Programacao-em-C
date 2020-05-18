@@ -58,11 +58,11 @@ Na estrutura for a sua estrutura é controlada por uma variável que conta a qua
 
 Em suma, temos: 
 
-* **inicialização: **expressão que atribui um valor inicial ao contador;
+* **inicialização:** expressão que atribui um valor inicial ao contador;
 
-* **condição: **verifica se a contagem chegou até o fim;
+* **condição:** verifica se a contagem chegou até o fim;
 
-* **alteração: **modifica o valor do contador.
+* **alteração:** modifica o valor do contador.
 
 Para exemplificar, considere o seguinte problema: 
 

@@ -93,3 +93,31 @@ A saída do programa será:
 A saída do programa será:
  
 > 1278
+
+* Math.h
+
+|   função| utilidade  |
+| ------------ | ------------ |
+|  log |   Logaritmo natural|
+| log10 | Logaritmo comum|
+| modf| Separa um número natural em duas partes|
+|pow | Potência|
+|sqrt| Raiz quadrada|
+|cos| Cosseno|
+|sin| Seno|
+
+
+		#include <stdio.h>
+		#include <math.h>
+		
+		int main(int argc, int argv[ ]){
+			int a = pow (10, 2);
+			int b = sqrt(25);
+			
+			printf("%d %d", a, b);
+			return 0;
+		}
+
+A saída do programa será: 
+
+> 100 5

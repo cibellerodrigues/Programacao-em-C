@@ -1,4 +1,4 @@
-#Bibliotecas em C 
+# Bibliotecas em C 
 
 Todo programa em C, antes de chegar ao compilador é tratado por um módulo adicional denominado preprocessador. 
 

@@ -60,6 +60,7 @@ Veremos algumas bibliotecas, a lista de algumas funções desta biblioteca e com
 A saída do programa será: 
 
 > Olá, seu_nome!
+>
 > 2 acima 3 abaixo
 
 * Stdlib.h 

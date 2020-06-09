@@ -111,7 +111,7 @@ A saída do programa será:
 		#include <stdio.h>
 		#include <math.h>
 		
-		int main(int argc, int argv[ ]){
+		int main(int argc, const char *argv[ ]){
 			int a = pow (10, 2);
 			int b = sqrt(25);
 			

@@ -122,3 +122,34 @@ A saída do programa será:
 A saída do programa será: 
 
 > 100 5
+
+
+## Projetando bibliotecas
+
+Para criar uma biblioteca é necessário seguir os passos abaixo:
+
+1.  Crie uma INTERFACE para sua biblioteca: mylib.h
+
+		#define erro "Mensagem de erro"
+		int sum(int a, int b){
+			return a + b;
+		}
+		
+		void msg_erro(){
+			printf("%s\n", erro);
+		}
+
+2. Utilize o arquivo .h em outro programa
+
+		#include <stdio.h>
+		#include "mylib.h"
+		
+		int main(int argc, const char *argv[ ]){
+			msg_erro();
+			result = sum(4, 6);
+			
+			printf("%d", result);
+			
+			return 0;
+		}
+

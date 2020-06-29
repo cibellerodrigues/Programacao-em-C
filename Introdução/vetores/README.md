@@ -49,3 +49,39 @@ Os valores são armazenados a partir da posição 0 do vetor, na ordem em que s�
 
 Se a lista de valores iniciais tem mais elementos que a capacidade do vetor, ocorre um erro de compilação. Entretanto, se tem menos que o reservado, as posições excedentes do vetor permanecem zeradas.
 
+Podemos também declarar vetores com tamanho ímplicito. Observe abaixo.
+
+		int main(int argc, const char *argv[ ]){
+			char v[] = {'a', 'b', 'c', 'd'};
+			
+			return 0;
+		}
+
+Como o tamanho é omitido, o compilador cria o vetor *v* com quatro posições. 
+
+### Parâmetros do tipo vetor
+
+Para acessar o endereço de memória de um vetor, ao invés de escrever-mos &vetor[0], utilizamos o nome atribuido a ele. Por exemplo, dado um vetor *v[10]*, para acessar seu endereço basta utilizar *v*.
+
+		int main(int argc, const char *argv[ ]){
+			int x[3];
+			printf("%p", x);
+			return 0;
+		}
+
+O formato %p é usado em C para a exibição de endereços.
+
+Quando passamos um vetor como argumento a uma função estamos na verdade passando seu endereço. E, ao contrário do que ocorre com outros tipos, a passagem de vetores é feita por referência. 
+
+	void imprimir(int vetor[], int len){ 
+		for(int i = 0; i < len; i++)
+		printf("%d ", vetor[i]);
+	}
+		
+	int main(int argc, const char *argv[]) {
+		int vetor[5] = {1, 2, 3, 4, 5};
+		
+		imprimir(vetor, 5);
+		
+		return 0;
+	}

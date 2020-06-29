@@ -75,7 +75,7 @@ Quando passamos um vetor como argumento a uma função estamos na verdade passan
 
 	void imprimir(int vetor[], int len){ 
 		for(int i = 0; i < len; i++)
-		printf("%d ", vetor[i]);
+			printf("%d ", vetor[i]);
 	}
 		
 	int main(int argc, const char *argv[]) {

@@ -30,7 +30,9 @@ Você pode utilizar a função *scanf()* para ler uma string. Mas existem outras
 		}
 
 A saída do programa será:
+
 >Informe seu nome: Maria Eduarda
+>
 >Seu nome é: Maria
 
 Note que, apenas "Maria" foi armazenado na memória na variável *nome*. Isso acontece porque há um espaço depois de "Maria". 
@@ -53,7 +55,9 @@ Podemos utilizar duas funções: *fgets()* e *puts*. Observe abaixo os exemplos.
 		}
 
 A saída do programa será:
+
 >Informe seu nome: Maria Eduarda
+>
 >Nome: Maria Eduarda
 
 >Nota: 

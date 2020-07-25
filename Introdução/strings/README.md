@@ -1,4 +1,4 @@
-#Strings 
+# Strings 
 
 Em C, uma string é um vetor de caracteres terminadas com '\0'. Em que, '\0' pode ser lido como um caractere nulo. Observe o exemplo abaixo que apresenta como uma string pode ser declarada e como, internamente, essa string é armazenada.
 

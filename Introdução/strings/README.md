@@ -61,7 +61,7 @@ A saída do programa será:
 >Nome: Maria Eduarda
 
 >Nota: 
-> A função sizeof(nome) irá retornar 20. Portanto, podemos utilizar no máximo 30 caracteres como entrada, que é o tamanho da string nome.
+> A função sizeof(nome) irá retornar 20. Portanto, podemos utilizar no máximo 20 caracteres como entrada, que é o tamanho da string nome.
 
 ## Manipulação de Strings
 

@@ -41,7 +41,7 @@ Lembre-se que, a função *scanf()* lê uma sequência de caracteres até encont
 
 #### Como ler uma linha de texto?
 
-Podemos utilizar duas funções: *fgets()* e *puts*. Observe abaixo os exemplos.
+Podemos utilizar duas funções: *fgets()* e *puts()*. Observe abaixo os exemplos.
 
 		int main(int argc, const char *argv[ ]){
 			

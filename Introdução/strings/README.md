@@ -1,4 +1,4 @@
-#Strings 
+# Strings 
 
 Em C, uma string é um vetor de caracteres terminadas com '\0'. Em que, '\0' pode ser lido como um caractere nulo. Observe o exemplo abaixo que apresenta como uma string pode ser declarada e como, internamente, essa string é armazenada.
 
@@ -30,7 +30,9 @@ Você pode utilizar a função *scanf()* para ler uma string. Mas existem outras
 		}
 
 A saída do programa será:
+
 >Informe seu nome: Maria Eduarda
+>
 >Seu nome é: Maria
 
 Note que, apenas "Maria" foi armazenado na memória na variável *nome*. Isso acontece porque há um espaço depois de "Maria". 
@@ -39,7 +41,7 @@ Lembre-se que, a função *scanf()* lê uma sequência de caracteres até encont
 
 #### Como ler uma linha de texto?
 
-Podemos utilizar duas funções: *fgets()* e *puts*. Observe abaixo os exemplos.
+Podemos utilizar duas funções: *fgets()* e *puts()*. Observe abaixo os exemplos.
 
 		int main(int argc, const char *argv[ ]){
 			
@@ -53,11 +55,13 @@ Podemos utilizar duas funções: *fgets()* e *puts*. Observe abaixo os exemplos.
 		}
 
 A saída do programa será:
+
 >Informe seu nome: Maria Eduarda
+>
 >Nome: Maria Eduarda
 
 >Nota: 
-> A função sizeof(nome) irá retornar 20. Portanto, podemos utilizar no máximo 30 caracteres como entrada, que é o tamanho da string nome.
+> A função sizeof(nome) irá retornar 20. Portanto, podemos utilizar no máximo 20 caracteres como entrada, que é o tamanho da string nome.
 
 ## Manipulação de Strings
 

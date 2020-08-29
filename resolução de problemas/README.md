@@ -9,6 +9,26 @@ A ciência da computação trata de solucionar problemas por meio de um computad
 
 Para compreender essa abordagem, usaremos o problema de calcular o valor de uma n-ésima entrada da sequência de Fibonacci.
 
+## Apresentando o problema
+
+Fibonacci ou Leonardo de Pisa(1170-1250), um famoso matemático italiano, criou a sequência que leva seu nome a partir da observação do crescimento de uma população de coelhos. Os números descrevem a quantidade de casais em uma população de coelhos após n meses, partindo dos seguintes pressupostos:
+
+1. No primeiro mês nasce somente um casal;
+2. Casais amadurecem sexualmente após o segundo mês de vida;
+3. Não há problemas genéticos no cruzamento consanguíneo;
+4. Todos os meses, cada casal dá à luz a um novo casal;
+5. Os coelhos nunca morrem.
+
+Com essas condições inicia a construção da sequência:
+
+1. No primeiro mês há apenas um casal de coelhos.
+2. Como a maturidade sexual dos coelhos dá-se somente a partir do segundo mês de vida, no segundo mês continua havendo apenas 1 casal.
+3. No terceiro mês teremos o nascimento de mais um casal, totalizando 2 casais. 
+4. No quarto mês, com o nascimento de mais um casal, gerado pelo casal inicial, (visto que o segundo ainda não amadureceu sexualmente) teremos 3 casais.
+5. No quinto mês, com o nascimento de dois novos casais gerados pelo casal 1 e pelo casal 2, totalizam-se 5 casais.
+
+![enter image description here](https://s1.static.brasilescola.uol.com.br/be/e/coelhos%20fibonacci.jpg)
+
 ## Entender o problema
 
 É tolice responder uma pergunta na qual você não entendeu. Portanto, o primeiro passo para resolver qualquer problema é garantir que você entenda o problema que está tentando resolver. Para isso, você precisa perguntar:

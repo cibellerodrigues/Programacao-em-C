@@ -54,14 +54,23 @@ Sabendo o que é o problema, você precisa modelar a solução. Ou seja, como ir
 
 Se observar a sequência com cuidado é possível ver que um número é a soma dos dois antecessores. Matematicamente podemos definir como:
 
-![\left\{ \begin{matrix} F_1=&0 \\ F_2=&1 \\  F_n=&F_{n-1}&+&F_{n-2} \end{matrix} \right.](https://render.githubusercontent.com/render/math?math=%5Cleft%5C%7B%20%5Cbegin%7Bmatrix%7D%20F_1%3D%260%20%5C%5C%20F_2%3D%261%20%5C%5C%20%20F_n%3D%26F_%7Bn-1%7D%26%2B%26F_%7Bn-2%7D%20%5Cend%7Bmatrix%7D%20%5Cright.)
-
+![\left\{
+  \begin{array}{lr}
+    F1 = 1\\
+    \\
+    F2 = 1\\
+    \\
+    Fn = Fn-1 + Fn- 2 
+  \end{array}
+\right.
+](https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Cleft%5C%7B%0A++%5Cbegin%7Barray%7D%7Blr%7D%0A++++F1+%3D+1%5C%5C%0A++++%5C%5C%0A++++F2+%3D+1%5C%5C%0A++++%5C%5C%0A++++Fn+%3D+Fn-1+%2B+Fn-+2+%0A++%5Cend%7Barray%7D%0A%5Cright.%0A)
 
 Assim, é possível calcular o valor relacionado a qualquer posição. Exemplo, o valor da posição 5 é calculado da forma seguinte:
-1. ![F(1) = 0, F(2) = 1](https://render.githubusercontent.com/render/math?math=F(1)%20%3D%200%2C%20F(2)%20%3D%201)
-2. ![F(3) = F(2) + F(1) = 1 + 0 = 1](https://render.githubusercontent.com/render/math?math=F(3)%20%3D%20F(2)%20%2B%20F(1)%20%3D%201%20%2B%200%20%3D%201)
-3. ![F(4) = F(3) + F(2) = 1 + 1 = 2](https://render.githubusercontent.com/render/math?math=F(4)%20%3D%20F(3)%20%2B%20F(2)%20%3D%201%20%2B%201%20%3D%202)
-4. ![F(5) = F(4) + F(3) = 2 + 1 = 3](https://render.githubusercontent.com/render/math?math=F(5)%20%3D%20F(4)%20%2B%20F(3)%20%3D%202%20%2B%201%20%3D%203)
+
+ 1. F(1) = 1, F(2) = 1
+ 2. F(3) = F(2) + F(1) = 2
+ 3. F(4) = F(3) + F(2) = 3
+ 4. F(5) = F(4) + F(3) = 5
 
 ## Desenvolver um algoritmo
 
@@ -180,4 +189,65 @@ FIM ALGORITMO
 
 ### O algoritmo de Fibonacci
 
+```
+INICIO ALGORITMO 
+
+int a, b, n, contador, soma
+
+n <- 5              //Iremos calcular a quantidade de casais de coelhos em 5 meses
+
+a <- 1                 // No primeiro mês só existe um casal
+b <- 1                 // No segundo mês ainda só existe 1 casal
+
+contador = 2    //Só precisamos calcular a partir do 3 mês. 
+
+ENQUANTO (contador < n) FACA
+
+	soma <- a + b       //Cada termo é a soma de seus dois antecessores
+	a <- b                     //Atualizando antecessor
+	b <- soma            //Atualizando antecessor
+	
+	contador = contador + 1   //Incrementando contador em 1 a cada iteração
+	
+FIM ENQUANTO
+
+imprima b   //a quantidade de casais de coelhos em n meses
+
+FIM ALGORITMO
+```
+
 ## Revisar e testar a solução
+
+Depois de desenvolver o algoritmo, você precisa garantir que ele resolve o problema que se destinava a resolver e que as soluções estão corretas. 
+
+### Teste de mesa
+
+O teste de mesa simula a execução de um algoritmo sem utilizar um computador, empregando apenas "papel e caneta".
+
+Passos para realizar um teste de mesa:
+
+ 1. Identifique as variáveis envolvidas no seu algoritmo 
+ 
+ 2. Crie uma tabela com linhas e colunas, em que: 
+	 * Cada coluna representará uma variável a ser "observada";
+	 * Cada linha representará o valor contido/armazenado na variável.
+	 
+#### Teste de mesa para o nosso algoritmo de Fibonacci 
+
+Determinamos no nosso algoritmo que a nossa entrada é 5. Ou seja, desejamos saber quantos casais de coelhos existem após 5 meses. 
+
+Dado isso, sabemos que nosso laço deve encerrar sua execução quando nossa variável "contador" estiver igual a 5.
+
+|n| a | b|soma|contador||
+|--|--|--|--|--|--|
+| 5 | 1 | 1| ?| 2| Inicio do algoritmo|
+|-|1|2|2|3|1º execução do laço|
+|-|2|3|3|4|2º execução do laço|
+|-|3|5|5|5|3º execução do laço|
+
+Como pode-se observar, no fim do nosso algoritmo a variável b possui valor igual 5. Ou seja, no 5 mês existem 5 casais de coelhos. Se visualizarmos a sequência, podemos confirmar que este é exatamente o valor esperado. 
+
+ 1. F(1) = 1, F(2) = 1
+ 2. F(3) = F(2) + F(1) = 2
+ 3. F(4) = F(3) + F(2) = 3
+ 4. F(5) = F(4) + F(3) = 5

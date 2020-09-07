@@ -1,7 +1,7 @@
 
 # Resolução de problemas
 
-A ciência da computação trata de solucionar problemas por meio de um computador, sejam eles concretos ou abstratos. Para solucioná-los precisamos abordá-los de modo sistemático. E um sistema possível consiste de 4 passos:
+A ciência da computação trata de solucionar problemas, concretos ou abstratos, por meio de um computador. Para solucioná-los precisamos abordá-los de modo sistemático. E uma abordagem sistêmica possível é:
 
 1. Entender o problema;
 2. Formular um modelo;
@@ -28,7 +28,10 @@ Com essas condições inicia a construção da sequência:
 4. No quarto mês, com o nascimento de mais um casal, gerado pelo casal inicial, (visto que o segundo ainda não amadureceu sexualmente) teremos 3 casais.
 5. No quinto mês, com o nascimento de dois novos casais gerados pelo casal 1 e pelo casal 2, totalizam-se 5 casais.
 
-![enter image description here](https://s1.static.brasilescola.uol.com.br/be/e/coelhos%20fibonacci.jpg)
+<p align="center">
+  <img src="https://s1.static.brasilescola.uol.com.br/be/e/coelhos%20fibonacci.jpg" alt="Coelhos de Fibonacci"/>
+</p>
+
 
 ## Entender o problema
 

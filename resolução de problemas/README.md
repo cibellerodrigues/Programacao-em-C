@@ -28,8 +28,9 @@ Com essas condições inicia a construção da sequência:
 4. No quarto mês, com o nascimento de mais um casal, gerado pelo casal inicial, (visto que o segundo ainda não amadureceu sexualmente) teremos 3 casais.
 5. No quinto mês, com o nascimento de dois novos casais gerados pelo casal 1 e pelo casal 2, totalizam-se 5 casais.
 
+
 <p align="center">
-  <img src="https://s1.static.brasilescola.uol.com.br/be/e/coelhos%20fibonacci.jpg" alt="Coelhos de Fibonacci"/>
+  <img width="600" height="200" src="https://s1.static.brasilescola.uol.com.br/be/e/coelhos%20fibonacci.jpg" alt="Coelhos de Fibonacci"/>
 </p>
 
 

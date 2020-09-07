@@ -36,7 +36,7 @@ Com essas condições inicia a construção da sequência:
 
 ## Entender o problema
 
-É tolice responder uma pergunta na qual você não entendeu. Portanto, o primeiro passo para resolver qualquer problema é garantir que você entenda o problema que está tentando resolver. Para isso, você precisa perguntar:
+É tolice responder uma pergunta na qual você não entendeu. Portanto, é necessário o entendimento do problema antes de gerar uma resposta. Para isso, você precisa perguntar:
 
 - Quais dados/informações de entrada estão disponíveis?
 - Quais dados de saída estou tentando gerar?
@@ -44,13 +44,14 @@ Com essas condições inicia a construção da sequência:
 - O que eu vou ter que realizar?
 - Tenho tudo que preciso?
 
-Para solucionar o problema proposto, questionaremos:
+ Fazendo essas perguntas no contexto do problema, temos:
 
 - Quais dados/informações de entrada estão disponíveis? Um inteiro que corresponde a quantidade de meses. 
 - Quais dados de saída estou tentando gerar? Um inteiro que corresponde a quantidade de casais de coelhos após n meses.
-- O que eles representam? O mês e a quantidade de casais de coelhos correspondente.
+- O que eles representam? A quantidade de casais de coelhos.
 - O que eu vou ter que realizar? Descobrir o valor de saída a partir do valor de entrada.
-- Tenho tudo que preciso? Sim. Pois sabemos o que devemos fazer e a sequência é: 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, ... 
+- Tenho tudo que preciso? Sim. Pois, sabemos que devemos relacionar o mês com a quantidade de casais existentes através da sequência de Fibonacci (1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, ...).
+ 
 
 ## Formular o modelo
 
@@ -111,16 +112,20 @@ Para exemplificar o uso dessas formas de representação de um algoritmo, seguem
 
 ### Variáveis
 
-Em problemas computacionais, necessitamos utilizar instruções para salvar na memória do computador informações que iremos precisar utilizar. Podemos então representar o armazenamento de uma informação utilizando uma variável. 
+Quando você escreve um algoritmo haverá uma manipulação de dados em cada instrução. Esses dados precisam estar representados de alguma forma no algoritmo para que possam ser utilizados. Esse é o papel de uma variável. Portanto, variável é um recurso de algoritmos que permitem representar dados que serão manipulados pelas instruções.
 
-Ao determinamos uma variável ela aloca uma determinada posição na memória do computador. Assim há necessidade de determinamos o **tipo de variável** de modo a se ter espaço suficiente para a alocação de qualquer dado do tipo declarado.
+Cada variável pode armazenar um tipo específico de informação. São tipos comuns:
 
- - [ ] Numérico: variável que armazena dados de números. Iremos segmentar esses números em inteiros e reais representados por, respectivamente, *int* e *float*
- - [ ] Caractere: variável que armazena dados no formato textual. Iremos representar utilizando *char*. Um char pode ser visto como, por exemplo, uma letra do alfabeto.  Posteriormente veremos que o conjunto de char formam uma string que seria, por exemplo, o alfabeto completo.
- - [ ] Lógico: variável que pode assumir apenas dois valores: Verdadeiro ou Falso. Representaremos utilizando *bool*.
+ - [ ] Numérico: representam números(inteiros, reais ou complexos).
+ - [ ] Caractere: representam um único caractere ou uma cadeia de caracteres.
+ - [ ] Lógico: representam valores booleanos, ou seja, que podem ter apenas os valores verdadeiro ou falso.
  
+ Os algoritmos são representados em linguagens de programação, e cada linguagem de programação representa esses tipos de forma própria.
+
 ### Condicionais
-A Estrutura Condicional possibilita a escolha de um grupo de ações e estruturas a serem executadas quando determinadas condições são ou não satisfeitas. A Estrutura condicional pode ser simples ou composta.  
+
+Quando você formula um pensamento, em alguns casos, você identifica um fluxo condicional na sua estratégia. Essa forma de pensar pode ser representada nos algoritmos, e você já viu como no exemplo apresentado anteriormente, a preparação do bife. Perceba que lá foi utilizada uma condição para determinar que conjunto de ações deve ser executado. Então, é isso que condicionais fazem: determinam o conjunto de ações que será executado a partir de uma verificação de variáveis que representam a condição de execução desse conjunto.
+ 
 
 #### Estrutura Condicional Simples
 

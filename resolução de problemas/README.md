@@ -172,6 +172,7 @@ FIM ALGORITMO
 
 ### Laços
 
+Muitas vezes notamos que para solucionar um problema devemos repetir uma mesma ação várias e várias vezes. Se pensarmos que queremos, por exemplo, chegar ao topo de uma escada sabemos que teremos que subir cada degrau até chegarmos ao final da escada. Note que se fossemos escrever um algoritmo para esse problema teriamos que reescrever uma mesma linha de código x vezes, a depender da quantidade de degraus da escada. Para solucionar esse tipo de problemas temos os laços de repetição.
 Os laços de repetição tratam-se de uma forma de executar blocos de comandos somente sob determinadas condições, mas com a opção de repetir o mesmo bloco quantas vezes for necessário. 
 
 **Pseudocódigo:**
@@ -179,14 +180,12 @@ Os laços de repetição tratam-se de uma forma de executar blocos de comandos s
 ```
 INICIO ALGORITMO 
 
-int carneirinho <- 0 
+int quantidade de degraus <-  10
+contador <- 0
 
-ENQUANTO estiver acordado FACA
-	SE já dormiu ENTAO
-		carneirinho = 0
-	SENAO
-		carneirinho = carneirinho + 1
-	FIM SE
+ENQUANTO contador < quantidade de degraus FACA
+	suba um degrau
+	contador = contador + 1
 FIM ENQUANTO
 
 FIM ALGORITMO
